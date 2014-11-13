@@ -1,6 +1,6 @@
 # Builds an OpenSuse 12 based docker with a fully working Synthese server using MySQL
 
-FROM nahili/opensuse:12.3
+FROM flavio/opensuse-12-3
 MAINTAINER Bastien Noverraz (TL)
 
 # Update
