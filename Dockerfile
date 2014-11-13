@@ -28,7 +28,7 @@ chkconfig -a supervisord
 
 # SYNTHESE core installation
 RUN \
-wget http://synthia-dev.t-l.ch/~jenkins/synthese/lin/release/trunk/latest/synthese.tar.bz2 -O /tmp/synthese.tar.bz2 && \
+wget http://ci.rcsmobility.com/~build/synthese/lin/release/trunk/latest/synthese.tar.bz2 -O /tmp/synthese.tar.bz2 && \
 tar jxf /tmp/synthese.tar.bz2 -C /opt/
 
 # Manual installation of old versions of libs (not available in the repositories)
